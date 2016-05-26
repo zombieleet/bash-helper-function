@@ -479,7 +479,7 @@ split() {
     log "${newArray[@]}"
    return 0;
 }
-
+<<'EOF'
 strict() {
     set -o nounset
     sourceScript=$0
@@ -510,6 +510,7 @@ strict() {
     IFS="${OLDIFS}"
     return 0;
 }
+EOF
 <<'EOF'
 include() {
     local includeFile=$1
