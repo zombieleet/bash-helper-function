@@ -665,7 +665,7 @@ decimaltobinary() {
 	finalConversion+=0
     fi
    
-    <<EOF
+    <<'EOF'
  # stripping out leading 0
     # for example the result of finalConversion for 23 is 0001011
     # the first three 0's are not needed
