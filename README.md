@@ -1,4 +1,4 @@
-# bash-helper-function
+# library of functions
 
 # + log [argument]
     # + argument is any string or number you want to output
