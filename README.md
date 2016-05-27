@@ -28,6 +28,11 @@
     # + usage: len "bash" >>>> "4"
     # + lenOfArray array
     # + get the length of an array
+
+#++++ bitwise operators +++++
+ and [numOne] [numTwo]
+ or [numOne] [numTwo]
+ xor [numOne] [numTwo]
     # + where array is the array to get it's length
     # + usage: len "bash" >>>> "4"
 
