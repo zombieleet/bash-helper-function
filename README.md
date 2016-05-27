@@ -85,3 +85,7 @@
 # + sqrt numToGetSqrt
   # + where numToGetsqrt is an integer
   # + usage: sqrt 5 >>> 2.23607
+# + reverse array
+  # + where array is an array to reverse 
+  # + array=( "bash" "zsh" "ksh")
+  # + usage: - reverse ${array[@]} >> "ksh" "zsh" "bash"
