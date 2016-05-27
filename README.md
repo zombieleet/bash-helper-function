@@ -82,3 +82,6 @@
   # + where strTomatch is a string to make the match on
   # + regexpToMachStrWith is the regexp to search for in strTomatch
   # + usage: - match "abcd1234" "([:alpha:])"
+# + sqrt numToGetSqrt
+  # + where numToGetsqrt is an integer
+  # + usage: sqrt 5 >>> 2.23607
